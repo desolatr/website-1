@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Project</title>
+</head>
+
+<body>
+    <script src="script.js"></script>
+   <h1 style="text-align:center; font-size:40px;">Finance calculator</h1>
+   <hr>
+
+   <div id="thismonth">
+    <h3 style="text-align: center;">This month</h3>
+    <hr>
+   <form>
+    <label for="income">Current balance:</label><br>
+    <input type="text" id="income"><br>
+    <label for="rent">Rent:</label><br>
+    <input type="text" id="rent"><br>
+    <label for="phone">Phone:</label><br>
+    <input type="text" id="phone"><br>
+    <label for="teeth">Teeth Insurance:</label><br>
+    <input type="text" id="teeth"><br>
+    <label for="ticket">Ticket:</label><br>
+    <input type="text" id="ticket"><br>
+    <label for="laptop">Laptop:</label><br>
+    <input type="text" id="laptop"><br>
+  </form>
+
+  <button onclick="incomeCalc()">Calculate</button>
+  <button onclick="constMonthly()">Constant monthly</button>
+
+        <p id="totalsumtxt"></p>
+        <p id="leftafter"></p>
+</div>
+
+<div id="weekly">
+    <h3 style="text-align: center;">Weekly</h3>
+    <hr>
+    <form>
+        <label for="monday">Monday:</label><br>
+        <input type="text" id="monday"><br>
+        <label for="tuesday">Tuesday:</label><br>
+        <input type="text" id="tuesday"><br>
+        <label for="wednesday">Wednesday:</label><br>
+        <input type="text" id="wednesday"><br>
+        <label for="thursday">Thursday:</label><br>
+        <input type="text" id="thursday"><br>
+        <label for="friday">Friday:</label><br>
+        <input type="text" id="friday"><br>
+        <label for="saturday">Saturday:</label><br>
+        <input type="text" id="saturday"><br>
+        <label for="sunday">Sunday:</label><br>
+        <input type="text" id="sunday"><br>
+      </form>
+
+</div>
+
+    <div id="todo">
+
+        <h3 style="text-align: center;">Things to add:</h3>
+        <p>- Function to add new spendings and save them</p>
+        <p>- Save them as a list</p>
+        <p>- Calculate how much already spent/left</p>
+        <hr>
+        <p>- Add a todo list that will save tasks as clickable</p>
+
+    </div>
+   
+
+</body>
+</html>

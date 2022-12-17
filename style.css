@@ -1,0 +1,36 @@
+body{
+    background:linear-gradient(skyblue,lightcyan);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#thismonth{
+    float: left;
+    border-style: solid;
+    background-color: lightcyan;
+    padding-left: 5px;
+    padding-right: 5px;
+    
+}
+
+    #todo{
+        background-color: lightcyan;
+        border-style: solid;
+        padding-left: 5px;
+        padding-right: 5px;
+        float: right;
+        margin-right: 100px;
+    }
+
+#weekly{
+    float: left;
+    border-style: solid;
+    background-color: lightcyan;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 15px;
+    padding-bottom: 5px;
+    
+}
+  
+    
